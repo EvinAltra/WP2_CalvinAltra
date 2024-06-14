@@ -1,6 +1,5 @@
-<head>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() 
-?>assets/stylebuku.css">
+<head> 
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/stylebuku.css">
 
 </head>
 <section>

@@ -18,25 +18,56 @@
                     <td colspan="3"><hr></td>
                 </tr>
                 <tr>
-                    <th>Kode MTK</th>
+                    <th>Nama Mahasiswa</th>
                     <th>:</th>
-                    <td><input type="text" name="kode" id="kode"></td>
-                </tr>
-                <tr>
-                    <th>Nama MTK</th>
-                    <td>:</td>
                     <td><input type="text" name="nama" id="nama"></td>
                 </tr>
                 <tr>
-                    <th>SKS</th>
+                    <th>Kelas</th>
+                    <td>:</td>
+                    <td><input type="text" name="kls" id="kls"></td>
+                </tr>
+                <tr>
+                    <th>NIM</th>
+                    <td>:</td>
+                    <td><input type="text" name="nim" id="nim"></td>
+                </tr>
+                <tr>
+                    <th>Agama</th>
+                    <td>:</td>
+                    <td><select name="agama" id="agama">
+                    <option value="Pilih" name="" id="">Pilih</option>
+                    <option value="Islam" name="agama" id="agama">Islam</option>
+                    <option value="Hindu" name="agama" id="agama">Hindu</option>
+                    <option value="Hindu" name="agama" id="agama">Budha</option>
+                    <option value="Kristen" name="agama" id="agama">Kristen</option>
+                    </td>
+                    </select>
+                </tr>
+                <tr>
+                    <th>Tempat Lahir</th>
+                    <td>:</td>
+                    <td><input type="text" name="tmpt" id="tmpt"></td>
+                </tr>
+                <tr>
+                   <th> <label for="tanggal">Pilih tanggal:</label></th>
+                   <td>:</td>
+                    <td><input type="date" id="tanggal" name="tanggal"></td>
+                    <!-- <td><input type="submit" value="Submit"></td> -->
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <td>:</td>
+                    <td><input type="text" name="alamat" id="alamat"></td>
+                </tr>
+                <tr>
+                    <th>Jenis Kelamin</th>
                     <td>:</td>
                     <td>
-                        <select name="sks" id="sks">
-                            <option value="">Pilih SKS</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
+                        <input type="radio" id="kelamin" name="kelamin" value="Laki-Laki">
+                        <label for="Laki-Laki">Laki-Laki</label><br>
+                        <input type="radio" id="kelamin" name="kelamin" value="Perempuan">
+                        <label for="Perempuan">Perempuan</label><br>
                     </td>
                 </tr>
                 <tr>

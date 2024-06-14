@@ -15,19 +15,44 @@
                 <td colspan="3"><hr></td>
             </tr>
             <tr>
-                <td>Kode MTK</td>
+                <td>Nama Mahasiswa</td>
                 <th>:</th>
-                <td><?= $kode; ?></td>
+                <td><?=$nama; ?></td>
             </tr>
             <tr>
-                <td>Nama MTK</td>
+                <td>Kelas</td>
                 <td>:</td>
-                <td><?= $nama; ?></td>
+                <td><?=$kls; ?></td>
             </tr>
             <tr>
-                <td>SKS</td>
+                <td>NIM</td>
                 <td>:</td>
-                <td><?= $sks; ?></td>
+                <td><?=$nim; ?></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><?=$agama;?></td>
+            </tr>
+            <tr>
+                <td>tempat Lahir</td>
+                <td>:</td>
+                <td><?=$tmpt; ?></td>
+            </tr>
+            <tr>
+                <td>tanggal</td>
+                <td>:</td>
+                <td><?=$tanggal; ?></td>
+            </tr>
+            <tr>
+                <td>alamat</td>
+                <td>:</td>
+                <td><?=$alamat; ?></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><?=$kelamin; ?></td>
             </tr>
             <tr>
                 <td colspan="3" align="center">

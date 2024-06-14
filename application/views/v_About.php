@@ -10,17 +10,22 @@
     
     <h4>Alamat</h4>
     <ul type="none">
-        <li>Jalan Ciledug Raya No. 168 Pesanggrahan</li>
+        <li>Kp Pisang Batu</li>
     </ul>
     
     <h4>Tempat Lahir</h4>
     <ul type="none">
-        <li>Cirebon</li>
+        <li>Jakarta</li>
     </ul>
     
     <h4>Olah Raga Favorit</h4>
     <ul type="square">
         <li>Bulutangkis</li>
-        <li>Catur</li>
+        <li>Football</li>
+    </ul>
+    <h4>Hobi</h4>
+    <ul type="square">
+        <li>Bermain Rubik</li>
+        <li>Bermain Gitar</li>
     </ul>
 </section>
